@@ -737,6 +737,7 @@ const (
 	ArchX32         Arch = "SCMP_ARCH_X32"
 	ArchARM         Arch = "SCMP_ARCH_ARM"
 	ArchAARCH64     Arch = "SCMP_ARCH_AARCH64"
+	ArchLOONG64     Arch = "SCMP_ARCH_LOONG64"
 	ArchMIPS        Arch = "SCMP_ARCH_MIPS"
 	ArchMIPS64      Arch = "SCMP_ARCH_MIPS64"
 	ArchMIPS64N32   Arch = "SCMP_ARCH_MIPS64N32"

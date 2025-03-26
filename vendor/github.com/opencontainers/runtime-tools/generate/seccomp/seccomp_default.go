@@ -15,6 +15,8 @@ func arches() []rspec.Arch {
 		return []rspec.Arch{rspec.ArchX86_64, rspec.ArchX86, rspec.ArchX32}
 	case "arm64":
 		return []rspec.Arch{rspec.ArchARM, rspec.ArchAARCH64}
+	case "loong64":
+		return []rspec.Arch{rspec.ArchLOONG64, rspec.ArchLOONG64}
 	case "mips64":
 		return []rspec.Arch{rspec.ArchMIPS, rspec.ArchMIPS64, rspec.ArchMIPS64N32}
 	case "mips64n32":

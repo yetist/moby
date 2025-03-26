@@ -16,6 +16,10 @@ func arches() []Architecture {
 			SubArches: []specs.Arch{specs.ArchARM},
 		},
 		{
+			Arch:      specs.ArchLOONG64,
+			SubArches: nil,
+		},
+		{
 			Arch:      specs.ArchMIPS64,
 			SubArches: []specs.Arch{specs.ArchMIPS, specs.ArchMIPS64N32},
 		},

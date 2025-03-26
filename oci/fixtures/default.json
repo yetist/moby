@@ -15,6 +15,10 @@
 			]
 		},
 		{
+			"architecture": "SCMP_ARCH_LOON64",
+			"subArchitectures": nil
+		},
+		{
 			"architecture": "SCMP_ARCH_MIPS64",
 			"subArchitectures": [
 				"SCMP_ARCH_MIPS",
@@ -628,7 +632,8 @@
 				],
 				"arches": [
 					"s390",
-					"s390x"
+					"s390x",
+					"loong64"
 				]
 			}
 		},

@@ -33,6 +33,7 @@ func parseArch(arch string) (rspec.Arch, error) {
 		"x32":         rspec.ArchX32,
 		"arm":         rspec.ArchARM,
 		"arm64":       rspec.ArchAARCH64,
+		"loong64":     rspec.ArchLOONG64,
 		"mips":        rspec.ArchMIPS,
 		"mips64":      rspec.ArchMIPS64,
 		"mips64n32":   rspec.ArchMIPS64N32,
